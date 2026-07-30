@@ -1,0 +1,231 @@
+.divMenu{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+    color:#f7f5f5; 
+    width:100%;
+    min-height: calc(80vh - 88px);
+    background-image: url(Fondos/fondoPrincipal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 2px rgba(211, 211, 211, 0.6);
+}
+
+main{
+    gap:40px;
+}
+
+.divMenu p{
+    font-size: 1.2rem;
+    width: 50%;
+    text-align: center;
+}
+
+.divMenu h2{
+    color:#f7f5f5
+}
+
+.divMenuGeneral{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+    justify-content: center;
+    justify-items: center;
+    width:80%;
+    min-height: 380px;
+}
+ 
+.divPagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    width: 60%;
+    background-color: #fddfdf;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    border-color:rgb(211, 40, 40);
+}
+ 
+.divPagina button{
+    font-family: "Poppins", sans-serif;
+    border-color:#f17500;
+    background-color: #fff4e8;
+    font-size: 0.9rem;
+    width: 28px;
+    height: 28px;
+    color:#f17500;
+    border-style:solid;
+    border-radius: 3px;
+    border-width:1px;
+    transition-duration: 0.3s ease all;
+    cursor:pointer;
+}
+
+.divPagina button:hover{
+    border-color:#fff4e8;
+    background-color: #f17500;
+    color:#fff4e8;
+}
+
+.divPagina button:focus{
+    border-color:#fff4e8;
+    background-color: #f17500;
+    color:#fff4e8;
+}
+
+.divMenuIntern{
+    display: flex;
+    padding: 12px 10px 12px 10px;
+    flex-direction: column;
+    gap:8px;
+    justify-content: center;
+    align-items: center; 
+    background-color: #f0f0f0;
+    width:220px;
+    border-radius: 6px;
+    min-height: 330px;
+    font-family: 'Poppins', sans-serif;
+    color:#2A2A2A;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.40);
+}
+
+.divMenuIntern img{
+    width:180px;
+    height: 180px;
+    border-radius:10px;
+}
+
+.divMenuIntern table{
+    margin-top: 4px;
+    align-self: flex-start;
+    margin-left: 14px;
+    font-size: 0.9rem;
+}
+
+
+
+.divMenuIntern table tr td{
+    text-align: center;
+}
+
+.tdTime{
+    font-size:0.8rem;
+    color:#753737;
+    font-weight: bold;
+}
+
+.divMenuIntern h3{
+    font-family: 'Bebas Neue', san serif;
+    color:black;
+}
+
+#imagenHora{
+    width: 15px;
+    height: 15px;
+}
+
+.divMenuIntern button{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+    background-color: rgb(211, 40, 40);
+    color:#f7f5f5;
+    border-style: none;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    height: 30px;
+    padding: 4px 2px 4px 2px;
+    width: 160px;
+    text-align: center;
+    transition-duration:0.3s ease all;
+    cursor: pointer;
+    border-style: solid;
+    border-color:#753737;
+    border-width: 1px;
+}
+
+.divMenuIntern button:hover{
+    transform: scale(1.05);
+    background-color: #fddfdf;
+    color:rgb(211, 40, 40);
+    border-color: rgb(211, 40, 40);
+}
+
+
+.divMenuIntern button img{
+    width:20px;
+    height:20px;
+}
+
+@media (max-width:768px){
+    .divPagina{
+        width:80%;
+    }
+
+    .divMenuGeneral{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    width:100%;
+}
+
+.divMenuIntern{
+    padding: 12px 10px 12px 10px;
+    width:44%;
+    min-height: 330px;
+}
+
+.divMenu p{
+    font-size:1rem;
+    text-align: center;
+    padding: 16px;
+    width:100%;
+}
+
+.divMenu{
+    text-align: center;
+}
+
+.divMenuIntern img{
+    width:130px;
+    height: 130px;
+}
+
+
+.divMenuIntern button{
+    margin-top: 8px;
+    font-size: 0.8rem;
+    height: 30px;
+    padding: 18px 10px 18px 10px;
+    width: 110px;
+}
+ 
+.divMenuIntern h3{
+    font-size: 1rem;
+}
+
+.divMenuIntern table{
+    margin-top: 4px;
+    align-self: flex-start;
+    margin-left: 0;
+    font-size: 0.7rem;
+}
+
+.tdTime{
+    font-size:0.5rem;
+}
+
+}
