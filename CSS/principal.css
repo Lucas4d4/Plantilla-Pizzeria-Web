@@ -1,0 +1,644 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    width:100%;
+    min-height:88px;
+    z-index: 1000;
+    background-color: #f7f5f5;
+}
+
+.divSec{
+    align-self: flex-end;
+    min-height:88px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.divSec ul{
+    list-style:none;
+}
+
+.divSec ul li{
+text-align: center;
+display: inline-block;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.divSec ul li a{
+    text-decoration-line: none;
+    display: block;
+    padding: 6px 10px 6px 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    text-decoration-line: none;
+    font-family: 'Poppins', sans-serif;
+    font-size:1.2rem;
+    font-weight: 600;
+    color:black;
+    border-bottom-color: black;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    transition-duration: 0.3s ease all;
+}
+
+.divSec ul li a:hover{
+background-color: black;
+border-bottom-color:#f7f5f5;
+color:#f7f5f5;
+}
+
+
+.divSec2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divSec3{
+    width: 100%;
+    min-height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.divSec3 ul{
+    list-style:none;
+}
+
+.divSec3 ul li{
+text-align: center;
+display: inline-block;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.divSec3 ul li a{
+    display: block;
+    padding: 6px 10px 6px 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    text-decoration-line: none;
+    font-family: 'Poppins', sans-serif;
+    font-size:1.2rem;
+    font-weight: 600;
+    color:black;
+    border-bottom-color: black;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    transition-duration: 0.3s ease all;
+}
+
+.divSec3 ul li a:hover{
+background-color: black;
+border-bottom-color:#f7f5f5;
+color:#f7f5f5;
+}
+
+
+.imgLogo{
+width: 88px;
+height: 88px;
+}
+
+.divPrincipal{
+    width: 600px;
+    min-height: 400px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Bebas Neue', sans-serif;
+    color:#f7f5f5;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+}
+
+.divPrincipal p{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btnMenu{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #D84315;
+    color:#f7f5f5;
+    padding: 4px 6px 4px 6px;
+    border-style: double;
+    border-width: 4px;
+    border-color: #f7f5f5;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.btnMenu:hover{
+    background-color: #f7f5f5;
+    border-color: #D84315;
+    color:#D84315;
+}
+
+.divPrincipalIntern{  
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.divPrincipalIntern a{
+    transition-duration: 0.3s ease all;
+}
+
+.divPrincipalIntern a:hover{
+    transform: scale(1.1);
+}
+
+.divPrincipalIntern img{
+    width:50px;
+    height: 50px;
+}
+
+
+main{
+    background-image: url(Fondos/fondoGeneral.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: calc(100vh - 88px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+h2{
+color:#D84315;
+font-family: 'Poppins', sans-serif;
+}
+
+.divIndex{
+    width: 100%;
+    min-height: calc(80vh - 88px);
+    background-image: url(Fondos/fondoPrincipal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.divCaract{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    width: 1000px;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.divCaractIntern{
+    background-color:#f0f0f0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+    width:300px;
+    min-height: 400px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.40);
+}
+
+.divCaractIntern img{
+    width: 240px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.divCaractIntern p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.divCaractIntern h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.divFinal{
+    width:100%;
+    background-color: rgb(48, 47, 47);
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    font-family: 'Poppins', sans-serif;
+    color: #f0f0f0;
+}
+
+.divFinalBlocks{
+    width:100%;
+    min-height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    gap:4px;
+}
+
+
+.divFinalIntern{
+    display: flex;
+    flex-direction: column;
+    gap:10px;   
+    width:100%;
+    min-height: 100px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: 'Poppins',sans-serif;
+    padding: 6px 0 6px 0;
+}
+
+.divFinalIntern a{
+    font-size: 0.8rem;
+    color:#f0f0f0;
+}
+
+.divFinalIntern p{
+    font-size: 0.8rem;
+}
+
+.divFinalIntern table{
+    font-size: 0.8rem;
+}
+
+.divFinalIntern img{
+    width:90px;
+    height:90px;
+}
+
+#descript{
+font-size: 0.6rem;
+margin-bottom: 20px;
+}
+
+.divTotal{
+  background-color: #fdf4f1;
+display: flex;
+width:100%;
+min-height: 88px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.divTotalIntern{
+    display: flex;
+width:100%;
+min-height: 88px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btnBurger{
+    display: none;
+}
+
+header input[type="checkbox"]{
+        display: none;
+    }
+
+
+.elementLogo{
+    display: none;
+}
+
+@media (max-width:768px){
+   header  input[type="checkbox"]:not(:checked) ~ .divTotal {
+        transform: translateX(-200%);
+      }
+
+   header input[type="checkbox"]:checked ~ .divTotal {
+        transform: translateX(0%);
+      }
+
+    header input[type="checkbox"]:not(:checked) ~ .btnBurger{
+        position: relative;
+    }
+
+    header input[type="checkbox"]:checked ~ .btnBurger{
+     transform: translateX(250%) rotate(180deg);   
+     border-color:#fd7e08;
+    background-color: #ffc58e;
+    }
+
+      header input[type="checkbox"]{
+        display:none;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+      .btnBurger{
+        border-style: solid;
+        border-color:#D84315;
+        border-width: 1px;
+        border-radius: 6px;
+        width: 44px;
+        height: 44px;
+        margin-left: 20px;
+        background-color: #fcd8cd;
+        display: block;
+        position: fixed;
+        padding: 0.5em;
+  z-index: 9999;
+  transition: 0.3s;
+}
+
+
+
+
+    .divSec ul li a{
+        font-size: 0.5rem;
+    }
+
+    .divTotal{
+        position: fixed;
+        width: 54%;
+        height: 60%;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap:10px;
+        align-items: center;
+        z-index: 1000;
+        top:0;
+        left:0;
+        right:0;
+        bottom: 0;
+    }
+
+    .divTotalIntern{
+        margin-top: 40%;
+        display: flex;
+        width:100%;
+    height: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .divSec{
+    align-self: center;
+    min-height:15%;
+    gap:0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.divSec ul{
+    width: 100%;
+    list-style:none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.divSec ul li{
+text-align: center;
+padding: 0;
+width:100%;
+margin-bottom: 10px;
+margin-top: 10px;
+margin-left: 0;
+margin-right: 0;
+}
+
+.divSec ul li a{
+    box-sizing: border-box; /* SIRVE PARA EVITAR DESBORDE */
+    display: block;
+    padding: 8px 10px 8px 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-size:1rem;
+}
+
+
+
+.divSec2{
+    display: none;
+}
+.divSec3{
+    width: 100%;
+    min-height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divSec3 ul{
+    width:100%;
+    list-style:none;
+    display: block;
+    padding: 0;
+    margin:0;
+}
+
+.divSec3 ul li{
+text-align: center;
+margin-left: 0;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 100%;
+margin-right: 0;
+}
+
+.divSec3 ul li a{
+    box-sizing: border-box;
+    display: block;
+    padding: 8px 10px 8px 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-size:1rem;
+}
+
+.elementLogo{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left:70%;
+    background-color: #f7f5f5;
+    display: block;
+}
+
+.imgLogo{
+width: 60px;
+height: 60px;
+}
+
+
+/** COSAS A MODIFICAR **/
+.imgMenu{
+    width:26px;
+    height: 26px;
+}
+
+.divPrincipal{
+    width: 70%;
+    min-height: 80%;
+    margin-left: 4%;
+}
+
+
+.divPrincipal p{
+    font-size: 0.8rem;
+}
+
+/** COSAS A MODIFICAR **/
+/** ELIMINAR ELEMENTOS CSS QUE YA EXISTEN CON ANTERIORIDAD **/
+.btnMenu{
+    text-decoration: none;
+    font-size: 1rem;
+    
+    padding: 4px 6px 4px 6px;
+}
+
+
+.divPrincipalIntern{  
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.divPrincipalIntern img{
+    width:40px;
+    height: 40px;
+}
+/** NUEVO A MODIFICAR **/
+main{
+    background-image: url(Fondos/fondoGeneral.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: calc(100vh - 88px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+h2{
+color:#D84315;
+font-family: 'Poppins', sans-serif;
+}
+
+.divIndex{
+    width: 100%;
+    min-height: calc(80vh - 88px);
+    background-image: url(Fondos/fondoPrincipal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.divCaract{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.divCaractIntern{
+    background-color:#f0f0f0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+    width:80%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.40);
+}
+
+.divCaractIntern img{
+    width: 80%;
+    height:210px;
+    border-radius: 20px; 
+}
+
+.divCaractIntern p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+
+.divCaractIntern h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+
+
+.divFinalIntern a{
+    font-size: 0.7rem;
+    color:#f0f0f0;
+}
+
+.divFinalIntern p{
+    font-size: 0.7rem;
+}
+
+.divFinalIntern table, .divFinalIntern span{
+    font-size: 0.7rem;
+}
+
+.divFinalIntern img{
+    width:90px;
+    height:90px;
+}
+
+#descript{
+font-size: 0.6rem;
+margin-bottom: 20px;
+}
+
+}
